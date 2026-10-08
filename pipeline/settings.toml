@@ -1,0 +1,9 @@
+# Personal preference, not a retrospective claim about completed workouts.
+target_runs_per_week = 3
+analysis_timezone = "Asia/Singapore"
+
+# Features use calendar windows, exclude the current day, and never fill gaps.
+hrv_recent_days = 7
+hrv_recent_min_count = 5
+hrv_baseline_days = 28
+hrv_baseline_min_count = 21

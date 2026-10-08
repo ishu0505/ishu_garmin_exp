@@ -1,0 +1,17 @@
+[project]
+name = "ishu-garmin-exp"
+version = "0.1.0"
+description = "Local Garmin export discovery and endurance training analysis"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fitdecode>=0.11.0",
+]
+
+[project.optional-dependencies]
+sync = [
+    "garminconnect>=0.3.17",
+]
+
+[tool.uv]
+package = false

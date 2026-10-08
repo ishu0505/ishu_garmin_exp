@@ -1,0 +1,35 @@
+# Private Garmin exports and derived personal health/location data
+/ishu_garmin_data/
+/data/raw/
+/data/processed/*
+!/data/processed/.gitkeep
+/data/interim/
+/data/reports/
+
+# Authentication and local configuration
+.env
+.env.*
+!.env.example
+secrets/
+credentials/
+.garminconnect/
+.garth/
+*.token
+
+# Python tooling and generated outputs
+.tools/
+.uv-cache/
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+build/
+dist/
+*.egg-info/
+/models/artifacts/
+/reports/
+.DS_Store
